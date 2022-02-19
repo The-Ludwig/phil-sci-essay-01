@@ -1,0 +1,48 @@
+% Choose scrartcl (normal document)
+\documentclass[
+  bibliography=totoc,     % Literatur im Inhaltsverzeichnis
+  captions=tableheading,  % Tabellenüberschriften
+  titlepage=firstiscover, % Titelseite ist Deckblatt
+  parskip= half,
+]{scrartcl}
+% Or beamer (slides)
+%\documentclass[aspectratio=169]{beamer}
+%\input{beamer.tex} % look in there for more beamer settings 
+
+% Set language here
+\usepackage[english]{babel}
+
+\input{header.tex}
+
+\title{Matter tells spacetime how to curve}
+\date{1915-04-20}
+\author{A. Einstein and D. Hilbert}
+\publishers{A faculty (not a bathing establishment)}
+% For beamer: \institute{A faculty (not a bathing establishment)}
+
+\addbibresource{references.bib}
+
+\begin{document}
+
+% For the beamer class:
+%\begin{frame}
+%	\titlepage
+%\end{frame}
+%\begin{frame}{Table of contents}
+%	\setbeamertemplate{section in toc}[sections numbered]
+%	\tableofcontents[hideallsubsections]
+%\end{frame}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\input{content/gravity.tex}
+\appendix
+\input{content/appendix.tex}
+
+\newpage
+\printbibliography
+
+\end{document}
+
