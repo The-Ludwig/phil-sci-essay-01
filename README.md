@@ -1,7 +1,7 @@
 LaTeX-template
 ===
-[Latest PDF Version](https://github.com/The-Ludwig/latex-template/releases/latest/download/latex-template.pdf)
-[![Build LaTeX](https://github.com/The-Ludwig/latex-template/actions/workflows/build.yml/badge.svg)](https://github.com/The-Ludwig/latex-template/actions/workflows/build.yml)
+[Latest PDF Version](https://github.com/The-Ludwig/phil-sci-essay-01/releases/latest/download/phil-sci-essay-01.pdf)
+[![Build LaTeX](https://github.com/The-Ludwig/phil-sci-essay-01/actions/workflows/build.yml/badge.svg)](https://github.com/The-Ludwig/phil-sci-essay-01/actions/workflows/build.yml)
 
 Template for a reproducable LaTeX workflow using texlive, latexmk, make and automated builds.
 
